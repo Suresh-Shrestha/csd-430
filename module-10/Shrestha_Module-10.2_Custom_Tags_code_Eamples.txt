@@ -1,0 +1,31 @@
+
+/*
+ * Name: Suresh Shrestha
+ * Module-10.2
+ * 10/9/2026
+ * Assignment: Creating Custom Tags in JSP
+ * File: WelcomeTag.java
+ *
+ * Description:
+ * This Java class creates a custom JSP tag.
+ * The doTag() method displays a welcome message
+ * when the tag is called from a JSP page.
+ */
+
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib prefix="my"
+    uri="http://example.com/mytags" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Tag Example</title>
+</head>
+<body>
+
+    <h2>My First Custom Tag</h2>
+
+    <my:welcome />
+
+</body>
+</html>
